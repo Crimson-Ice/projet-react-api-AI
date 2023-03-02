@@ -1,0 +1,46 @@
+.navbar{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 62px;
+  height: 100%;
+  background-color: #333333;
+
+  img{
+    width: 35px;
+  }
+
+  i{
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  i:last-child{
+    margin-bottom: 20px;
+  }
+
+  span{
+    color: white;
+    font-size: 0.7vw;
+  }
+
+  .items{
+    padding: 15px 5px;
+  }
+
+  .top-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .donneIcon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.logTableau {
+    width: 260px;
+    height: 260px;
+    padding-top: 17px;
+
+    table {
+        border-collapse: collapse;
+    }
+
+    tr:first-child {
+        span{
+            padding: 3px;
+        }
+
+        th:first-child {
+            border: none;
+        }
+    }
+
+    th, td{
+        border: 2px solid #D9D9D9;
+    }
+
+    span{
+        font-weight: normal;
+    }
+
+    .titrePrincipale, .titreSecondaire{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .titrePrincipale{
+        color: #EEEEEE;
+        span{
+            background-color: #597DFD;
+        }
+    }
+
+    .titreSecondaire{
+        span{
+            background-color: #FFD2B9;
+        }
+    }
+
+    .bigSquare {
+        font-size: 20px;
+        width: 107px;
+        height: 107px;
+        text-align: center;
+    }
+
+    .texteDeCoter {
+        writing-mode: vertical-lr;
+        transform: scale(-1);
+
+        span{
+            padding: 3px;
+        }
+    }
+
+}

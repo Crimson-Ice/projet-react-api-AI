@@ -1,0 +1,74 @@
+.logContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+
+  .texteChargement{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    span{
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }
+
+  .barreChargement{
+    padding: 0 10px;
+
+
+    progress{
+      width: 100%;
+      transition:width 600ms linear;
+    }
+  }
+
+  .log{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+
+    button{
+      width: 160px;
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+
+  .logGraph{
+    display: flex;
+    padding-top: 20px;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+
+    .statTitle{
+      span{
+        font-size: 12px;
+        padding: 0 10px;
+        font-weight: bold;
+      }
+      .bargraph{
+        width: 330px;
+        padding-top: 10px;
+      }
+    }
+    .tableau{
+      .select{
+        font-size: 12px;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 25px;
+
+        select{
+          border: 0;
+          min-width: 40px;
+          max-width: 100px;
+          font-weight: bold;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

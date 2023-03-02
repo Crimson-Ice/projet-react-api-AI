@@ -1,0 +1,32 @@
+.cardApprentisage{
+    list-style: none;
+
+    button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 28px;
+        width: 100%;
+        background-color: white;
+        border-radius: 3px;
+        margin: 5px 0;
+        padding: 0 10px;
+        color: black;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: #D9D9D9;
+        cursor: pointer;
+    }
+
+    .selected{
+        border: 1px solid #597DFD;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+}

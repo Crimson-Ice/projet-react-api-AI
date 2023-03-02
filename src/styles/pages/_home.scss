@@ -1,0 +1,10 @@
+.grid{
+  display: grid;
+  grid-template-columns: 62px 1fr 265px;
+  height: 100%;
+
+  .wrapper{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}

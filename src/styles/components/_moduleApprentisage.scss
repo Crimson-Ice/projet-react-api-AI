@@ -1,0 +1,60 @@
+.moduleApprentisage{
+  display: flex;
+  position: fixed;
+  right: 0;
+  flex-direction: column;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 265px;
+  height: 100%;
+  background-color: #EEEEEE;
+  padding: 20px 36px;
+
+  span{
+    font-size: 10px;
+  }
+
+  h2{
+    margin: 10px 0;
+  }
+
+  button{
+    height: 40px;
+    width: 100%;
+    background-color: #597DFD;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin-top: auto;
+    font-size: 12px;
+  }
+
+  button:hover{
+    background-color: #4760c9;
+    cursor: pointer;
+  }
+
+  .quantite{
+    display: flex;
+    padding: 30px 0;
+
+    .typeQuantite{
+      display: flex;
+      flex-direction: column;
+      margin-right: auto;
+
+      span:first-child{
+        color: #9E9E9E;
+      }
+      span:last-child{
+        font-size: 35px;
+        padding-top: 8px;
+      }
+    }
+  }
+
+  .apprentisage{
+    margin: 5px 0;
+    color: #9E9E9E;
+  }
+}
